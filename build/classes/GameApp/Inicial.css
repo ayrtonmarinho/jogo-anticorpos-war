@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/06/2020, 15:17:26
+    Author     : iTuhh Z
+*/
+
+.root {
+   
+    -fx-background-image: url(mainmenu.png);
+}
+
+#btStart{
+    -fx-background-color: transparent;    
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 40px;
+}
+
+#btStart:hover{
+    -fx-text-fill: yellow;
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
